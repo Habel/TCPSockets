@@ -16,11 +16,11 @@ Using this plugin requires [Android Phonegap](http://github.com/phonegap/phonega
     
     &lt;script type="text/javascript" charset="utf-8" src="TCPSocket.js"&gt;&lt;/script&gt;
 
-2. Create a direct within your project called "src/com/habel/plugin/sockets/" and move TCPSocket.java into it.
+2. Create a direct within your project called "src/com/habel/sockets/" and move TCPSocket.java into it.
 
 3. In your res/xml/plugins.xml file add the following line:
     
-    &lt;plugin name="TCPSocket" value="com.habel.plugin.sockets.TCPSocket"/&gt;
+    &lt;plugin name="TCPSocket" value="com.habel.sockets.TCPSocket"/&gt;
 
 ## Using the plugin ##
 
